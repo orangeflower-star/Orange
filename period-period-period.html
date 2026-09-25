@@ -1,1 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Period. Period. Period. | Orange Flower</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #fffaf5;
+      color: #3f352f;
+      font-family: Arial, sans-serif;
+      line-height: 1.8;
+    }
+
+    .article-container {
+      width: 90%;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .back-home {
+      display: inline-block;
+      margin: 30px 0;
+      color: #d86f45;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .back-home:hover {
+      text-decoration: underline;
+    }
+
+    .article-header {
+      text-align: center;
+      padding: 55px 25px;
+      margin-bottom: 35px;
+      background: #fbe8e8;
+      border-radius: 28px;
+    }
+
+    .article-header .flower {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .article-header h1 {
+      font-family: Georgia, serif;
+      font-size: 48px;
+      line-height: 1.15;
+      color: #b95f5f;
+      margin: 0 0 18px;
+    }
+
+    .subtitle {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 19px;
+      color: #74645c;
+    }
+
+    .article-content {
+      background: #ffffff;
+      padding: 50px;
+      border-radius: 28px;
+      border: 1px solid #eee1d7;
+      margin-bottom: 50px;
+    }
+
+    .article-content h2 {
+      font-family: Georgia, serif;
+      color: #c85c3c;
+      font-size: 30px;
+      margin-top: 48px;
+      margin-bottom: 15px;
+    }
+
+    .article-content h2:first-of-type {
+      margin-top: 30px;
+    }
+
+    .article-content p {
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+
+    .intro {
+      font-family: Georgia, serif;
+      font-size: 24px !important;
+      line-height: 1.6;
+      color: #5c4b43;
+    }
+
+    .short-thoughts {
+      text-align: center;
+      font-family: Georgia, serif;
+      font-size: 21px;
+      line-height: 1.9;
+      margin: 35px 0;
+      color: #76564f;
+    }
+
+    .shared-moment {
+      background: #fff2e7;
+      padding: 30px;
+      border-radius: 20px;
+      margin: 30px 0;
+      border-left: 5px solid #e58a57;
+    }
+
+    .big-quote {
+      background: #f8e2e5;
+      padding: 42px 35px;
+      border-radius: 24px;
+      margin: 45px 0;
+      text-align: center;
+    }
+
+    .big-quote p {
+      font-family: Georgia, serif;
+      font-size: 28px;
+      line-height: 1.5;
+      color: #a64f58;
+      margin: 0;
+    }
+
+    .question {
+      font-family: Georgia, serif;
+      font-size: 24px !important;
+      text-align: center;
+      color: #b95f5f;
+      padding: 15px 0;
+    }
+
+    .share-story {
+      background: #fbe8e8;
+      padding: 38px;
+      border-radius: 24px;
+      margin: 45px 0;
+    }
+
+    .share-story h2 {
+      margin-top: 0;
+      text-align: center;
+    }
+
+    .share-story .final-thought {
+      font-family: Georgia, serif;
+      text-align: center;
+      font-size: 22px;
+      color: #a64f58;
+    }
+
+    .comfort-section {
+      background: #fff3e8;
+      padding: 38px;
+      border-radius: 24px;
+      margin: 45px 0;
+    }
+
+    .comfort-section h2 {
+      margin-top: 0;
+    }
+
+    .resource-placeholder {
+      background: #ffffff;
+      border: 1px dashed #d9b9a6;
+      padding: 25px;
+      border-radius: 16px;
+      margin: 20px 0;
+    }
+
+    .health-note {
+      font-size: 14px !important;
+      color: #76665e;
+      background: #f7f2ee;
+      padding: 20px;
+      border-radius: 15px;
+      margin-top: 30px;
+    }
+
+    .closing {
+      text-align: center;
+      padding: 25px 5px 5px;
+    }
+
+    .closing strong {
+      font-family: Georgia, serif;
+      font-size: 22px;
+      color: #b95f5f;
+    }
+
+    .signature {
+      font-family: Georgia, serif;
+      font-size: 20px !important;
+      margin-top: 35px;
+    }
+
+    .footer-note {
+      text-align: center;
+      padding: 0 0 60px;
+      color: #8a766b;
+    }
+
+    @media (max-width: 700px) {
+      .article-content {
+        padding: 28px 22px;
+      }
+
+      .article-header {
+        padding: 40px 20px;
+      }
+
+      .article-header h1 {
+        font-size: 37px;
+      }
+
+      .big-quote {
+        padding: 32px 22px;
+      }
+
+      .big-quote p {
+        font-size: 23px;
+      }
+
+      .share-story,
+      .comfort-section {
+        padding: 28px 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="article-container">
+
+    <a href="./index.html#blog" class="back-home">
+      ← Back to Orange Flower
+    </a>
+
+    <header class="article-header">
+      <div class="flower">🌸</div>
+
+      <h1>Period. Period. Period.</h1>
+
+      <p class="subtitle">
+        Because sometimes being a woman means showing up for a world
+        that doesn't always make room for what your body is going through.
+      </p>
+    </header>
+
+    <article class="article-content">
+
+      <p class="intro">
+        As women, we go through a lot.
+      </p>
+
+      <p>
+        We live in a society that often tells us to be soft, feminine,
+        graceful, and nurturing—but at the same time expects us to work,
+        study, produce, and perform as though our bodies never change.
+      </p>
+
+      <div class="short-thoughts">
+        Wake up.<br>
+        Go to class.<br>
+        Go to work.<br>
+        Meet the deadline.<br>
+        Finish the assignment.<br>
+        Take care of everyone else.<br>
+        Repeat.
+      </div>
+
+      <p>
+        And somewhere in the middle of all of that, your period comes.
+      </p>
+
+      <p>
+        Maybe you're tired.
+      </p>
+
+      <p>
+        Maybe you're emotional.
+      </p>
+
+      <p>
+        Maybe you're bloated and uncomfortable.
+      </p>
+
+      <p>
+        Or maybe you're experiencing cramps so painful that getting out
+        of bed feels like an accomplishment on its own.
+      </p>
+
+      <p>
+        And yet, life continues as if nothing happened.
+      </p>
+
+      <h2>“I need one or two days.”</h2>
+
+      <p>
+        The other day, I was studying with a friend in the graduate
+        student lounge when our conversation turned to periods.
+      </p>
+
+      <p>
+        She told me that she experiences severe menstrual cramps and
+        sometimes needs one or two days each month to recover.
+      </p>
+
+      <p>
+        But trying to plan school around those days has been difficult.
+      </p>
+
+      <p>
+        She explained that when she tried to communicate her needs to
+        her professors, she was told that she could only miss a limited
+        amount of class and that illness-related absences might require
+        documentation from a doctor.
+      </p>
+
+      <div class="shared-moment">
+        <p>
+          We looked at each other.
+        </p>
+
+        <p>
+          And we laughed.
+        </p>
+
+        <p>
+          Not because anything about the situation was funny.
+        </p>
+
+        <p>
+          It was the kind of laugh that happens when another woman tells
+          you something and you understand exactly what she means without
+          her having to explain much more.
+        </p>
+
+        <strong>That little: “Girl... I know.”</strong>
+      </div>
+
+      <p>
+        Because when you've experienced debilitating cramps—or watched
+        someone you love experience them—you know that sometimes it isn't
+        simply a matter of “pushing through.”
+      </p>
+
+      <p>
+        Sometimes your body is asking you to stop.
+      </p>
+
+      <h2>But what if getting help isn't that simple?</h2>
+
+      <p>
+        This is something I don't think we talk about enough.
+      </p>
+
+      <p>
+        Imagine waking up in intense pain while living alone.
+      </p>
+
+      <p>
+        Maybe you're a student. Maybe your family lives far away.
+        Maybe you don't have someone who can immediately drive you
+        somewhere. Maybe you're in too much pain to comfortably drive
+        yourself.
+      </p>
+
+      <p>
+        And depending on where you live and your circumstances, even
+        seeking urgent medical care can come with practical and financial
+        concerns.
+      </p>
+
+      <p>
+        So sometimes women stay home.
+      </p>
+
+      <p>
+        We curl up in bed. We grab the heating pad. We take whatever
+        measures normally help us.
+      </p>
+
+      <p>
+        And somehow, while dealing with all of that, we're still thinking:
+      </p>
+
+      <div class="short-thoughts">
+        <em>I have an assignment due.</em><br>
+        <em>I'm supposed to work today.</em><br>
+        <em>What am I going to tell my professor?</em><br>
+        <em>Am I going to fall behind?</em>
+      </div>
+
+      <p>
+        That's the part that gets me.
+      </p>
+
+      <div class="big-quote">
+        <p>
+          “Your body can be screaming at you to rest while the rest of
+          your life is screaming at you to keep going.”
+        </p>
+      </div>
+
+      <h2>Your body isn't an inconvenience 🌸</h2>
+
+      <p>
+        I don't think menstruation should be treated like something
+        embarrassing that women are simply expected to quietly manage
+        behind the scenes.
+      </p>
+
+      <p>
+        For one person, a period might mean a few uncomfortable days.
+        For another, menstrual symptoms can affect school, work,
+        exercise, sleep, social plans, and everyday life.
+      </p>
+
+      <p>
+        And sometimes, the hardest part isn't even the pain itself.
+      </p>
+
+      <p>
+        It's knowing that everything around you is still moving.
+      </p>
+
+      <p>
+        The assignment is still due. Your shift still starts at the same
+        time. Your professor still expects you in class. Your
+        responsibilities are still waiting for you.
+      </p>
+
+      <p>
+        Needing rest doesn't make someone lazy. Struggling doesn't make
+        someone weak. And being in pain shouldn't automatically mean you
+        have to suffer silently just to prove that you can keep up.
+      </p>
+
+      <h2>I keep wondering what would happen if we listened more</h2>
+
+      <p>
+        What would our schools look like if conversations about menstrual
+        health were taken more seriously?
+      </p>
+
+      <p>
+        What would workplaces look like?
+      </p>
+
+      <p>
+        What would healthcare look like?
+      </p>
+
+      <p>
+        What would research look like?
+      </p>
+
+      <p>
+        I don't pretend to have all the answers.
+      </p>
+
+      <p>
+        But I think change can begin with something incredibly simple:
+      </p>
+
+      <p class="question">
+        <strong>“This is happening to me.”</strong>
+      </p>
+
+      <p>
+        And instead of immediately questioning, minimizing, or dismissing
+        her experience, someone listens.
+      </p>
+
+      <p>
+        That's one of the reasons I wanted to write this post.
+      </p>
+
+      <p>
+        Not because I have the perfect solution.
+      </p>
+
+      <p>
+        But because I know my friend isn't the only woman who has sat
+        somewhere wondering:
+      </p>
+
+      <p class="question">
+        <strong>
+          How am I supposed to keep doing everything when my body is
+          asking me to stop?
+        </strong>
+      </p>
+
+      <section class="share-story">
+
+        <h2>Share Your Story 💌</h2>
+
+        <p>
+          I don't want this to be just my story or my friend's story.
+        </p>
+
+        <p>
+          I want Orange Flower to be a space where we can have the
+          conversations we sometimes only whisper about with our friends.
+        </p>
+
+        <p>
+          <strong>
+            What has your experience with your period been like at school
+            or work?
+          </strong>
+        </p>
+
+        <p>
+          Have you ever needed time off because of menstrual symptoms?
+        </p>
+
+        <p>
+          Have you ever felt like someone didn't understand how much pain
+          you were experiencing?
+        </p>
+
+        <p>
+          What do you wish your professors, employers, friends, family,
+          or community understood about periods?
+        </p>
+
+        <p>
+          And what do you think could be done differently?
+        </p>
+
+        <p>
+          <strong>
+            Leave me a message. I genuinely want to hear your story and
+            your thoughts. 💕
+          </strong>
+        </p>
+
+        <p>
+          Because somewhere, another woman might read your experience
+          and realize:
+        </p>
+
+        <p class="final-thought">
+          <strong>“Wait... I'm not the only one.”</strong>
+        </p>
+
+      </section>
+
+      <section class="comfort-section">
+
+        <h2>A little comfort for that time of the month 🍊</h2>
+
+        <p>
+          I've also put together some resources below for anyone looking
+          for ways to make difficult period days a little more
+          comfortable.
+        </p>
+
+        <p>
+          I'll share some things that personally help me, along with
+          products I genuinely use or like.
+        </p>
+
+        <p>
+          I want to be very clear about this part: I'm not sharing these
+          because I believe there is one magical product that will make
+          period pain disappear.
+        </p>
+
+        <p>
+          What works for me may not work for you, and everyone's body
+          and experience are different.
+        </p>
+
+        <p>
+          I'm sharing them because sometimes the little things—a heating
+          pad, something warm to drink, comfortable clothes, rest, or
+          whatever brings you comfort—can make a difficult day feel just
+          a little softer.
+        </p>
+
+        <div class="resource-placeholder">
+          <strong>Helpful resources 🌸</strong>
+          <p>
+            We'll add your trusted menstrual-health resources here.
+          </p>
+        </div>
+
+        <div class="resource-placeholder">
+          <strong>Things I personally use or recommend 💕</strong>
+          <p>
+            We'll add your personal recommendations and product links
+            here.
+          </p>
+        </div>
+
+        <p class="health-note">
+          <strong>A gentle health note:</strong> Severe or persistent
+          menstrual pain, pain that is suddenly different from usual, or
+          symptoms that regularly interfere with everyday life are worth
+          discussing with a qualified healthcare professional. This blog
+          shares personal experiences and general information and is not
+          a substitute for individualized medical advice.
+        </p>
+
+      </section>
+
+      <div class="closing">
+
+        <p>
+          At the end of the day, I hope Orange Flower can become one
+          small corner of the internet where women feel comfortable
+          talking about the things we're sometimes expected to quietly
+          deal with.
+        </p>
+
+        <p>
+          Where we can learn from one another.
+        </p>
+
+        <p>
+          Where we can share what has helped us.
+        </p>
+
+        <p>
+          Where we can admit when something is hard.
+        </p>
+
+        <p>
+          And where another woman can simply say:
+        </p>
+
+        <p>
+          <strong>“Girl, I know.”</strong>
+        </p>
+
+        <p>
+          Take care of yourself.<br>
+          Give your body grace.<br>
+          And when another woman tells you she's struggling, listen.
+        </p>
+
+        <p class="signature">
+          With lots of love,<br>
+          <strong>Stella 🍊</strong><br>
+          <em>Orange Flower</em>
+        </p>
+
+      </div>
+
+    </article>
+
+    <div class="footer-note">
+      🍊 Orange Flower
+    </div>
+
+  </main>
+
+</body>
+</html>

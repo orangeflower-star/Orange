@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Orange Flower Library | Free Resources</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #fffaf5;
+      color: #3f352f;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    nav {
+      background: #fffaf5;
+      border-bottom: 1px solid #f1dfd1;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-container {
+      max-width: 1120px;
+      margin: auto;
+      padding: 18px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: bold;
+      color: #d86f45;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 28px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links a {
+      color: #3f352f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .nav-links a:hover {
+      color: #d86f45;
+    }
+
+    .library-hero {
+      text-align: center;
+      padding: 75px 25px 55px;
+    }
+
+    .section-label {
+      color: #d86f45;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 13px;
+    }
+
+    .library-hero h1 {
+      font-family: Georgia, serif;
+      font-size: 52px;
+      color: #b85f3c;
+      margin: 12px 0 18px;
+    }
+
+    .library-hero p {
+      max-width: 680px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    .library-container {
+      max-width: 1120px;
+      margin: auto;
+      padding: 20px 24px 90px;
+    }
+
+    .resource-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 28px;
+    }
+
+    .resource-card {
+      background: #ffffff;
+      border: 1px solid #f0d9ca;
+      border-radius: 24px;
+      padding: 30px;
+    }
+
+    .resource-image {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      display: block;
+      border-radius: 18px;
+      margin-bottom: 24px;
+    }
+
+    .resource-card h2 {
+      font-family: Georgia, serif;
+      color: #4a3830;
+      font-size: 27px;
+      line-height: 1.25;
+      margin-top: 0;
+    }
+
+    .resource-card p {
+      margin-bottom: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 13px 22px;
+      background: #e87500;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 999px;
+    }
+
+    .button:hover {
+      background: #c96300;
+    }
+
+    .pantry-card {
+      background: #fff8f2;
+    }
+
+    .library-note {
+      text-align: center;
+      margin-top: 55px;
+      padding: 30px;
+      background: #fbeaea;
+      border-radius: 24px;
+    }
+
+    .library-note h2 {
+      font-family: Georgia, serif;
+      color: #b85f3c;
+    }
+
+    footer {
+      text-align: center;
+      padding: 35px 20px;
+      border-top: 1px solid #f1dfd1;
+      background: #fffaf5;
+    }
+
+    @media (max-width: 760px) {
+      .nav-container {
+        flex-direction: column;
+      }
+
+      .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+      }
+
+      .resource-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .library-hero h1 {
+        font-size: 39px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-container">
+
+      <a href="./index.html" class="logo">
+        🍊 Orange Flower
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="./index.html#home">Home</a></li>
+        <li><a href="./index.html#blog">Blog</a></li>
+        <li><a href="./resources.html">Free Resources</a></li>
+        <li><a href="./index.html#about">About</a></li>
+        <li><a href="./index.html#podcast">Podcast</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+
+  <header class="library-hero">
+
+    <p class="section-label">Free for you</p>
+
+    <h1>The Orange Flower Library 📚</h1>
+
+    <p>
+      A growing collection of free planners, wellness guides,
+      digital resources, and little things designed to make
+      college, wellness, and everyday life a little easier.
+    </p>
+
+  </header>
+
+
+  <main class="library-container">
+
+    <div class="resource-grid">
+
+
+      <!-- FALL 2026 COLLEGE PLANNER -->
+
+      <div class="resource-card">
+
+        <img
+          src="./fall-2026-planner-preview.png"
+          alt="Free Fall 2026 College Student Planner preview"
+          class="resource-image"
+        >
+
+        <h2>🎓 Free Fall 2026 College Student Planner</h2>
+
+        <p>
+          An interactive digital planner created for college students
+          for the Fall 2026 semester.
+        </p>
+
+        <p>
+          Organize classes, assignments, study time, internships,
+          wellness, workouts, and everyday life all in one place.
+        </p>
+
+        <a
+          href="./Fall_Semester_2026_GoodNotes_Expanded_Interactive_Planner%20(1).pdf"
+          class="button"
+          download
+        >
+          Download Free Planner ↓
+        </a>
+
+      </div>
+
+
+      <!-- DIGITAL STICKERS -->
+
+      <div class="resource-card">
+
+        <img
+          src="./fall-2026-sticker-pack-preview.png"
+          alt="Free Fall 2026 Digital Sticker Pack preview"
+          class="resource-image"
+        >
+
+        <h2>🌸 Free Digital Sticker Pack</h2>
+
+        <p>
+          A cute collection of draggable digital stickers made to
+          personalize your Fall 2026 planner, notes, study pages,
+          and more.
+        </p>
+
+        <p>
+          Designed for digital planning and perfect for Goodnotes.
+        </p>
+
+        <a
+          href="./Fall_2026_GoodNotes_Draggable_Stickers.zip"
+          class="button"
+          download
+        >
+          Download Free Stickers ↓
+        </a>
+
+      </div>
+
+
+      <!-- COMPLETE DAILY PLANNER -->
+
+      <div class="resource-card">
+
+        <img
+          src="./fall-2026-planner-preview.png"
+          alt="Fall 2026 Complete Daily Planner preview"
+          class="resource-image"
+        >
+
+        <h2>📚 Fall 2026 Complete Daily Planner</h2>
+
+        <p>
+          The ultimate expanded Fall 2026 digital planner for students
+          who want everything organized in one place.
+        </p>
+
+        <p>
+          This 1,100+ page planner includes daily planning pages for
+          classes, study time, work, internships, and volunteering,
+          workouts, free time, lifestyle, notes, cycle tracking,
+          and more.
+        </p>
+
+        <a
+          href="./fall-2026-complete-daily-planner.pdf"
+          class="button"
+          download
+        >
+          Download Complete Planner ↓
+        </a>
+
+      </div>
+
+
+      <!-- ANTI-INFLAMMATORY PANTRY -->
+
+      <div class="resource-card pantry-card">
+
+        <h2>🌿 Anti-Inflammatory Pantry Essentials</h2>
+
+        <p>
+          A simple pantry guide filled with nourishing staples for
+          balanced meals and an anti-inflammatory style of eating.
+        </p>
+
+        <p>
+          Explore whole grains, beans, lentils, seeds, healthy fats,
+          spices, pantry staples, tinned fish, and more.
+        </p>
+
+        <a
+          href="./nutrition-without-the-confusion.html#anti-inflammatory-resources"
+          class="button"
+        >
+          View the Pantry Guide →
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="library-note">
+
+      <h2>More resources are coming 🌸</h2>
+
+      <p>
+        The Orange Flower Library will continue to grow with
+        practical resources for student life, wellness, nutrition,
+        organization, and navigating your 20s.
+      </p>
+
+    </div>
+
+  </main>
+
+
+  <footer>
+    🍊 Orange Flower · Lifestyle · Wellness · Student Life
+  </footer>
+
+</body>
+</html>

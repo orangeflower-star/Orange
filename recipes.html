@@ -1,1 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Orange Flower Recipes | Orange Flower</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #fff8f1;
+      color: #4a2d22;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 22px 70px;
+    }
+
+    .back {
+      display: inline-block;
+      margin-bottom: 30px;
+      color: #d86f45;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .back:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 55px 25px;
+      background: #fff0e5;
+      border-radius: 30px;
+      margin-bottom: 45px;
+    }
+
+    .hero .orange {
+      font-size: 50px;
+      margin-bottom: 8px;
+    }
+
+    .section-label {
+      color: #b86546;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+
+    h1 {
+      font-family: Georgia, serif;
+      font-size: clamp(38px, 7vw, 58px);
+      color: #d86f45;
+      margin: 10px 0 15px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: 0 auto;
+      color: #6f5a50;
+    }
+
+    .category {
+      margin-top: 50px;
+    }
+
+    .category h2 {
+      font-family: Georgia, serif;
+      font-size: 30px;
+      color: #b86546;
+      margin-bottom: 8px;
+    }
+
+    .category-intro {
+      color: #6f5a50;
+      margin-bottom: 25px;
+    }
+
+    .recipe-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+
+    .recipe-card {
+      background: #ffffff;
+      border: 1px solid #f0d8cb;
+      border-radius: 24px;
+      padding: 28px;
+    }
+
+    .recipe-card .emoji {
+      font-size: 34px;
+    }
+
+    .recipe-card h3 {
+      font-family: Georgia, serif;
+      font-size: 25px;
+      color: #d86f45;
+      margin: 10px 0;
+    }
+
+    .recipe-card p {
+      color: #6f5a50;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 12px 19px;
+      background: #e9822b;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 999px;
+    }
+
+    .button:hover {
+      opacity: 0.9;
+    }
+
+    .coming-soon {
+      text-align: center;
+      margin-top: 55px;
+      padding: 30px;
+      background: #fff0e5;
+      border-radius: 24px;
+    }
+
+    .coming-soon h2 {
+      font-family: Georgia, serif;
+      color: #d86f45;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      color: #8a766b;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      .recipe-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <a href="./resources.html" class="back">
+      ← Back to the Orange Flower Library
+    </a>
+
+    <header class="hero">
+      <div class="orange">🍊</div>
+
+      <p class="section-label">From Stella's Kitchen ♡</p>
+
+      <h1>Orange Flower Recipes</h1>
+
+      <p>
+        Cozy recipes from my kitchen to yours made with love,
+        little notes from me, and plenty of comfort. 💕
+      </p>
+    </header>
+
+
+    <!-- BAKING -->
+    <section class="category">
+
+      <p class="section-label">Fresh from Stella's kitchen 🍓</p>
+
+      <h2>Baking & Sweet Comforts 🍞🍌</h2>
+
+      <p class="category-intro">
+        Cozy homemade recipes for slow mornings, baking days,
+        and a little something sweet.
+      </p>
+
+      <div class="recipe-grid">
+
+        <div class="recipe-card">
+          <div class="emoji">🍌</div>
+          <h3>Cozy Banana Bread</h3>
+          <p>
+            Warm homemade banana bread made for slow mornings,
+            afternoon snacks, and something sweet with tea.
+          </p>
+          <a href="./banana-bread.html" class="button">
+            View Recipe →
+          </a>
+        </div>
+
+        <div class="recipe-card">
+          <div class="emoji">🍞</div>
+          <h3>Homemade Bread</h3>
+          <p>
+            Soft homemade bread made from scratch and perfect
+            alongside soup, breakfast, or warm with butter.
+          </p>
+          <a href="./homemade-bread.html" class="button">
+            View Recipe →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- FALL & COZY MEALS -->
+    <section class="category">
+
+      <p class="section-label">Warm & cozy from Stella's kitchen 🍂</p>
+
+      <h2>Fall & Cozy Meals 🍂🥣</h2>
+
+      <p class="category-intro">
+        Warm, comforting meals for chilly evenings,
+        slow weekends, and cozy nights at home.
+      </p>
+
+      <div class="recipe-grid">
+
+        <div class="recipe-card">
+          <div class="emoji">🥣</div>
+          <h3>Cozy Lentil Soup</h3>
+          <p>
+            A hearty lentil soup with ginger, garlic,
+            mushrooms, tomatoes, herbs, and cozy spices.
+          </p>
+          <a href="./lentil-soup.html" class="button">
+            View Recipe →
+          </a>
+        </div>
+
+        <div class="recipe-card">
+          <div class="emoji">🍲</div>
+          <h3>Cozy Beef Stew</h3>
+          <p>
+            A rich and comforting stew with tender beef,
+            potatoes, carrots, mushrooms, peas, and herbs.
+          </p>
+          <a href="./beef-stew.html" class="button">
+            View Recipe →
+          </a>
+        </div>
+
+        <div class="recipe-card">
+          <div class="emoji">🍛</div>
+          <h3>Stella's Cozy Curry</h3>
+          <p>
+            A colorful, comforting curry filled with vegetables,
+            tender beef, ginger, and cozy spices.
+          </p>
+          <a href="./stellas-curry.html" class="button">
+            View Recipe →
+          </a>
+        </div>
+
+        <div class="recipe-card">
+          <div class="emoji">☕</div>
+          <h3>Stella's Cozy Immune Tea</h3>
+          <p>
+            A warming homemade tea with ginger, garlic,
+            orange, cinnamon, and lemon or lime.
+          </p>
+          <a href="./immune-tea.html" class="button">
+            View Recipe →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="coming-soon">
+      <h2>More recipes are coming 🍊💕</h2>
+      <p>
+        The Orange Flower recipe collection will keep growing
+        with cozy meals, baking favorites, drinks, and recipes
+        straight from Stella's kitchen.
+      </p>
+    </section>
+
+    <footer>
+      🍊 Orange Flower · From Stella's Kitchen ♡
+    </footer>
+
+  </main>
+
+</body>
+</html>
